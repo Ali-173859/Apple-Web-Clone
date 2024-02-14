@@ -1,0 +1,410 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 251, 251);
+    background-color: #292828;
+    height: 45px;
+    width: 100%;
+
+
+}
+
+   
+.fa-apple{
+    font-size: 1.2rem;
+}
+.nav-ops ul{
+   color: rgb(189, 189, 189);
+    font-size: 0.90rem;
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    justify-content: space-evenly;
+
+}
+.nav-ops{
+    width: 60%;
+}
+
+.iphone{
+    background-image: url(./Pics/hero_iphone15pro__i70z9oz3hj2i_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: 1700px 590px;
+    background-position: 50%;
+    height: 500px;
+   
+}
+
+.titanium-txt{
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top:40px ;
+    
+}
+
+.titanium-txt h5{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.titanium-txt h1{
+    font-size: 50px;
+}
+
+.titanium-txt a{
+    text-decoration: none;
+    color: rgb(11, 155, 250);
+    font-size: 19px;
+}
+
+.titanium-txt a:hover{
+    text-decoration: underline;
+    color: rgb(11, 155, 250);
+}
+
+.vision{
+    background-image: url(./Pics/hero_apple_vision_pro_avail__ecthwv10twsy_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: 1700px 900px;
+    background-position: 50%;
+    height: 500px;
+ 
+}
+
+.caption-txt{
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top:20% ;
+    line-height: 3px;
+    
+}
+
+.caption-txt h5{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.caption-txt h1{
+    color:  black;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caption-txt a{
+    text-decoration: none;
+    color: rgb(11, 155, 250);
+    font-size: 19px;
+}
+
+.caption-txt a:hover{
+    text-decoration: underline;
+    color: rgb(11, 155, 250);
+}
+
+
+.valentine{
+    background-image: url(./Pics/hero_valentines_day_2024__dyne8c2no3ki_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: 1700px 800px;
+    background-position: 50%;
+    height: 500px;
+    
+}
+
+.valentine-txt{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top:20% ;
+    line-height: 3px;
+    
+}
+
+.valentine-txt h5{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.valentine-txt h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.valentine-txt a{
+    text-decoration: none;
+    color: rgb(11, 155, 250);
+    font-size: 19px;
+}
+
+.valentine-txt a:hover{
+    text-decoration: underline;
+    color: rgb(11, 155, 250);
+}
+
+
+.cards-fluid{
+     
+}
+
+    #first{
+    background-image: url(.//Pics/promo_iphone15_announce__fmxxi8r9fkuy_medium.jpg);
+    background-size: 780px 490px;
+    background-repeat: no-repeat;
+   height: 450px;
+   background-position: 50%;
+   border: 7px solid white;
+
+                }
+    
+                #second{
+    background-image: url(./Pics/promo_apple_watch_series_9_order__b3u85rm9zf6u_medium.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-position: 50%;
+   border: 7px solid white;
+
+
+            }
+    
+            #third{
+    background-image: url(./Pics/og-macbook-pro-202310.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-position: 50%;
+   border: 7px solid white;
+
+        }
+    
+        #fourth{
+    background-image: url(./Pics/promo_ipad__fioegapg12qi_medium.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-position: 50%;
+   border: 7px solid white;
+
+}
+     
+    #fifth{
+        background-image: url(./Pics/iphone-trade-in-202010_FMT_WHH.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 450px;
+        background-position: 50%;
+   border: 7px solid white;
+
+    }
+        
+        #six{
+            background-image: url(./Pics/maxresdefault.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            height: 450px;
+   border: 7px solid white;
+
+        }
+
+
+.card-txt{
+    text-align: center;
+    
+}
+
+
+.card-txt a{
+    text-decoration: none;
+
+}
+.card-txt a:hover{
+    text-decoration: underline;
+
+}
+
+.carousel-caption{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+
+    .stream-1{
+        border: none;
+        border-radius: 30px;
+        padding: 10px;
+    }
+    .stream-1:hover{
+       background-color: rgba(255, 255, 255, 0.8);
+    }
+
+}
+
+.main-footer{
+    background-color:rgb(245, 245, 247);
+    height: 1024px;
+    width: 100%;
+    
+}
+
+.foot-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 0 11px;
+}
+
+.foot-main-list{
+    list-style: none;
+    font-size: 14px;
+    color: #B7B7B7;
+    line-height: 20px;
+}
+
+
+
+
+.footer-apple{
+    margin-top: 20px;
+     padding: 10px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+  
+     font-size: 0.90rem;
+     line-height: 20px;
+ }
+ .footer-items{
+
+ }
+ 
+ .foot-1{
+    
+     font-size: 1.2rem;
+     font-weight: 700;
+     margin-bottom: 20px;
+ }
+
+
+ .sec-last{
+    margin-top: 6%;
+    flex-wrap: wrap;
+    color: #8f8d8d;
+    text-align: center;
+ }
+
+
+ .last-foot{
+  flex-wrap: wrap;
+    color: #8f8d8d;
+    text-align: center;
+
+ }
+
+ .last-foot span{
+    color: black;
+    
+ }
+
+@media screen  and (max-width:768px){
+   
+    .options{
+        display: none;
+    }
+    .apple-icon {
+        width: 500px;
+        
+       
+       
+    }
+    .nav-ops ul i{
+        margin-top: 20px;
+    }
+    .bar-icon{
+        font-size: medium;
+       
+    }
+    .mini-box{
+   min-width: 200px;
+
+    }
+    
+
+    .caption-txt h1{
+        margin-top:24% ;
+    }
+
+
+        .valentine-txt h1{
+            margin-top: 23%;
+        }
+
+        .footer-hide {
+            display: none;
+        }
+
+
+}
+
+
+@media screen and (max-width:425px) {
+
+    .options{
+        display: none;
+    }
+    .apple-icon {
+        width: 230px;
+       
+       
+    }
+    .nav-ops ul i{
+        margin-top: 20px;
+    }
+    .bar-icon{
+        font-size: medium;
+    }
+    .mini-box{
+    min-width: 370px;
+    max-width: 510px;
+
+    }
+    .height{
+        height: 250px;
+        width: 250px;
+    }
+    .hide p{
+        display: none;
+    }
+      
+
+
+
+    
+
+
+        .caption-txt h1{
+            margin-top:60% ;
+        }
+ 
+        .valentine-txt h1{
+            margin-top: 62%;
+            font-size: 50px;
+        }
+
+        .footer-upp{
+            display: none;
+        }
+        .footer-down{
+            display: none;
+        }
+    }
